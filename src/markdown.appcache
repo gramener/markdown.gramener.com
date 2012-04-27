@@ -1,6 +1,11 @@
 CACHE MANIFEST
 
+CACHE:
 css/style.css
+js/helper.js
+js/zepto.min.js
+js/showdown-gui.js
+js/showdown.min.js
 img/h/apple-touch-icon.png
 img/l/apple-touch-icon-precomposed.png
 img/l/apple-touch-icon.png
@@ -9,7 +14,6 @@ img/startup-retina.png
 img/startup-tablet-landscape.png
 img/startup-tablet-portrait.png
 img/startup.png
-js/helper.js
-js/zepto.min.js
-js/showdown-gui.js
-js/showdown.min.js
+
+NETWORK:
+*
