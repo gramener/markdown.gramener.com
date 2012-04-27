@@ -11,7 +11,5 @@ img/startup-tablet-portrait.png
 img/startup.png
 js/helper.js
 js/zepto.min.js
-js/modernizr-2.0.6.min.js
 js/showdown-gui.js
 js/showdown.min.js
-

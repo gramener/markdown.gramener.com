@@ -113,6 +113,11 @@ function startGui() {
     // this is cheap; do it often
     window.setInterval(setPaneHeights,250);
 
+    // Use locally stored value
+    if (window.localStorage && window.localStorage.text) {
+        inputPane.value = window.localStorage.text;
+    }
+
     // start with blank page?
     if (top.document.location.href.match(/\?blank=1$/))
         inputPane.value = "";
@@ -143,6 +148,11 @@ function startGui() {
 function convertText() {
     // get input text
     var text = inputPane.value;
+
+    // Save in local storage so that when reloaded, we can use this text again
+    if (window.localStorage) {
+        window.localStorage.text = text;
+    }
 
     // if there's no change to input, cancel conversion
     if (text && text == lastText) {
