@@ -1,2 +1,2 @@
 push:
-	rsync -avz --delete src/* s-anand.net:~/www/markdown.gramener.com/
+	rsync -avz --delete src/* src/.htaccess s-anand.net:~/www/markdown.gramener.com/
