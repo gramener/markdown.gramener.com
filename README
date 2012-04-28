@@ -1,0 +1,17 @@
+# Markdown Editor
+
+Source code for [mardown.gramener.com](http://mardown.gramener.com)
+
+This is simple Markdown editor --
+an offline wrapper around [Showdown](http://www.showdown.im/).
+
+### Features
+
+- Works on iOS / Android
+- Works offline
+
+### Copyrights
+
+- Copyright (c) 2012 Gramener <http://gramener.com/>
+- Markdown Copyright (c) 2004-2005 John Gruber <http://daringfireball.net/projects/markdown/>
+- Showdown Copyright (c) 2007 John Fraser <http://www.attacklab.net/>
